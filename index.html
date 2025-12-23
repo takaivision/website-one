@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Takai Vision Technologies Pvt Ltd</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Takai Vision Technologies Pvt Ltd — Professional IT services: web, cloud, AI, consultancy.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="#0A74FF"/>
+          <path d="M7 14c1.5-3 5-3 6.5 0" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand">Takai Vision</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="cta" href="#contact">Get a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Build resilient digital experiences with expert IT services</h1>
+          <p class="lead">We design secure, scalable, and AI-enabled solutions for startups and enterprises — web development, cloud infrastructure, and strategic IT consultancy.</p>
+          <p>
+            <a class="btn primary" href="#contact">Start a Project</a>
+            <a class="btn ghost" href="#services">Our Services</a>
+          </p>
+        </div>
+        <div class="hero-card">
+          <ul class="stats">
+            <li><strong>99.9%</strong><span>Uptime-focused</span></li>
+            <li><strong>50+</strong><span>Projects delivered</span></li>
+            <li><strong>10+</strong><span>Industries served</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">End-to-end IT services tailored to your business goals.</p>
+      <div class="grid services-grid">
+        <article class="card">
+          <h3>Web & App Development</h3>
+          <p>Modern web apps, APIs, and user experiences using robust frameworks and best practices.</p>
+        </article>
+        <article class="card">
+          <h3>Cloud & DevOps</h3>
+          <p>Cloud architecture, automation, CI/CD, and cost optimization across major cloud providers.</p>
+        </article>
+        <article class="card">
+          <h3>AI & Data Solutions</h3>
+          <p>Applied machine learning, data pipelines, and analytics to extract actionable insights.</p>
+        </article>
+        <article class="card">
+          <h3>IT Consultancy</h3>
+          <p>Technical strategy, security reviews, and digital transformation roadmaps.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2 class="section-title">About Takai Vision</h2>
+        <p class="lead">At Takai Vision, we are a passionate team of engineers and consultants committed to helping businesses harness technology for growth. As a startup, we bring fresh ideas backed by solid technical expertise to build solutions that are reliable, scalable, and future-ready. Our goal is simple: turn complex challenges into practical, high-performing systems that deliver real business value.</p>
+        <div class="team-grid">
+          <div class="team-item">
+            <h4>Mission</h4>
+            <p>Empower organizations with innovative IT solutions that drive efficiency, scalability, and long-term success.</p>
+          </div>
+          <div class="team-item">
+            <h4>Values</h4>
+            <ul class="values-list">
+              <li><strong>Quality</strong></li>
+              <li><strong>Transparency</strong></li>
+              <li><strong>Partnership</strong></li>
+            </ul>
+          </div>
+          <div class="team-item">
+            <h4>Approach</h4>
+            <ul class="approach-list">
+              <li><strong>Iterative Delivery</strong></li>
+              <li><strong>Measurable Outcomes</strong></li>
+              <li><strong>Security-First Design</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-sub">Tell us about your project — we'll reply within 1 business day.</p>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>Full name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Company<input type="text" name="company"></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <div class="form-row">
+            <button class="btn primary" type="submit">Send Message</button>
+            <div id="formStatus" class="form-status" aria-live="polite"></div>
+          </div>
+        </form>
+        <aside class="contact-info">
+          <h4>Office</h4>
+          <p>Takai Vision Technologies Pvt Ltd<br>Electronic City Phase 1, Bangalore, Bengaluru, Karnataka, India 560100</p>
+          <h4>Email</h4>
+          <p>info@takaivision.in</p>
+          <h4>Phone</h4>
+          <p></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Takai Vision Technologies Pvt Ltd. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
